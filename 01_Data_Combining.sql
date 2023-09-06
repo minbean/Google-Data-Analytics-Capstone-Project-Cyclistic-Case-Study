@@ -24,3 +24,4 @@ CREATE TABLE `2022_divvy_trip_data.cyclistic_data` AS (
   SELECT * FROM `third-harbor-397105.2022_divvy_trip_data.nov_data` 
   UNION ALL
   SELECT * FROM `third-harbor-397105.2022_divvy_trip_data.dec_data`
+  );
